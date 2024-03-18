@@ -1,6 +1,6 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Hotel 2
+subtitle: 500 m  from workshop location
 layout: default
 modal-id: 2
 date: 2014-07-17

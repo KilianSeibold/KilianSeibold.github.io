@@ -1,5 +1,4 @@
 <!-- Welcome Section -->
-
     <section id="welcome">
         <div class="container">
             <div class="row">
@@ -17,7 +16,59 @@
     <span class="quote">&#8220;Novel Quantum Simulation Schemes and Platforms&#8221;</span>.
 </li>
 </ul>
-            </div>
+
+<br><br><br>
+<style>
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 15%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <img src="img/logos/quest_logo_black.png" alt="Quest" style="width:90%">
+  </div>
+  <div class="column">
+    <img src="img/logos/logo-heisenberg-gross-data.jpg" alt="DFG" style="width:90%">
+  </div>
+  <div class="column">
+    <img src="img/logos/Uni_KN_logo.png" alt="Mountains" style="width:90%">
+  </div>
+    <!-- <div class="column">
+    <img src="img/logos/MPQ.png" alt="Mountains" style="width:90%">
+  </div> -->
+      <div class="column">
+    <img src="img/logos/MPQ_trans.png" alt="Mountains" style="width:90%">
+  </div>
+      <div class="column">
+    <img src="img/logos/LMU_Muenchen_Logo.png" alt="Mountains" style="width:90%">
+  </div>
+</div>
+
+
+
+</div>
 
 
     </section>

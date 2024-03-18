@@ -1,0 +1,95 @@
+<!-- Services Section -->
+    <section id="program">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Program</h2>
+                    <h3 class="section-subheading text-muted">This program is tentative.</h3>
+                </div>
+            </div>
+<!-- ---------------------------- -->
+<!-- <h4 class="subheading"> tentative program:</h4> -->
+
+<style>
+.table-container {
+    width: 100%; /* Ensure the container spans the full width of the page */
+    overflow-x: auto; /* Add horizontal scroll if necessary */
+  }
+
+  .programm-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .programm-table th, .programm-table td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: left;
+  }
+  .programm-table th { /* the HEADING*/
+    background-color: rgba(128, 128, 128, 0.355); /* Light gray background for heading column */
+  }
+  .programm-table tr:nth-child(odd) {
+    background-color: rgba(128, 128, 128, 0.186); /* Light gray background for even rows */
+  }
+</style>
+
+<style>
+  .section-date {
+    font-size: x-large;
+    font-weight: normal;
+    display: inline;
+    text-transform: capitalize;
+  }
+</style>
+
+
+<style>
+  .bold {
+    font-weight: bold;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+</style>
+
+<script>
+  function formatText(firstPart, secondPart) {
+    return `<span class="bold">${firstPart}</span><br><span class="italic">${secondPart}</span>`;
+  }
+</script>
+
+<!-- Monday -->
+<h4 class="section-date">Monday August, 26</h4>
+
+
+<div class="table-container">
+<table class="programm-table">
+  <!-- <thead>
+    <tr>
+      <th>Heading</th>
+      <th>Content</th>
+    </tr>
+  </thead> -->
+  <tbody>
+    <tr>
+      <td>09:00 - 10:00</td>
+      <td>      <script>
+        document.write(formatText("Speaker 1", "Cute talk title"));
+      </script>
+      </td>
+    </tr>
+    <tr>
+      <td>CD</td>
+      <td>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+    </tr>
+    <tr>
+      <td>EF</td>
+      <td>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+        </div>
+    </section>
