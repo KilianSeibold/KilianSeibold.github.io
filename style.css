@@ -8769,4 +8769,28 @@ only screen and (min-device-pixel-ratio: 1.5) {
     }
 }
 
+
+/* Google maps*/
+
+        .google-map {
+            /* padding-bottom: 50%; */
+            position: relative;
+            text-align: center;
+        }
+    
+        .google-map iframe {
+            /* height: 40%; */
+            width: 90%;
+            left: 0;
+            top: 0;
+            position: relative;
+        }
+
+        @media (min-width:768px) {
+        .google-map iframe {
+                /* height: 40%; */
+                width: 40%;
+
+            }
+}
 /* fin */
