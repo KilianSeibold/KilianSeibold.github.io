@@ -8753,7 +8753,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 
 .list-table {
-    width: 50%;
+    width: 100%;
     border-collapse: collapse;
 }
 
@@ -8762,10 +8762,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
     /* Light gray background for even rows */
 }
 
-@media {
+@media (min-width:768px) {
     .list-table {
-        width: 100%;
-        border-collapse: collapse;
+        width: 50%;
+        /* border-collapse: collapse; */
     }
 }
 
