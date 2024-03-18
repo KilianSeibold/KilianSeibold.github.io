@@ -7,7 +7,10 @@ source "https://rubygems.org"
 # gem "jekyll", "~> 4.3"
 
 
-remote_theme: "jekyll-agency"
+# gem "rails"
+gem 'webrick'
+gem "jekyll"
+gem "jekyll-agency"
 
 # Plugins
 group :jekyll_plugins do
