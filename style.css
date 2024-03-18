@@ -8750,4 +8750,23 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 }
 
+
+
+.list-table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.list-table tr:nth-child(odd) {
+    background-color: rgba(128, 128, 128, 0.186);
+    /* Light gray background for even rows */
+}
+
+@media {
+    .list-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+}
+
 /* fin */
