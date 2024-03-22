@@ -7905,7 +7905,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #e6f0ff;
+    background-color: #e6f0ff
 }
 
 .bg-darkest-gray {
@@ -8015,7 +8015,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #A7B4D9;
+    /*#222*/
 }
 
 .navbar-default .navbar-brand {
